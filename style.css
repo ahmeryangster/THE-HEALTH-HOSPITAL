@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.row{
+    --bs-gutter-x: 0rem !important;
+}
+.row .first-div{
+    padding: 2rem;
+}
+.first-div{
+    background-color: #c8c6c6;
+}
+.first-div h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.first-div p{
+    font-family: 'Poppins', sans-serif;
+}
+.second-div img{
+width: -moz-available;
+padding: 4px;
+}
+.gal{
+color: #1750d7;
+font-size: 43px;
+text-align: center;
+margin-top: 5px;
+}
+.gale img{
+    padding-left: 31px;
+    padding-top: 20px;
+    opacity: 0.6;
+}
+.gale img:hover{
+    opacity: 1;
+}
+footer{
+    background-color: #5ad7f4;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 17px;
+}
+footer p{
+    font-size: 26px;
+    font-weight: 600;
+}
+footer p span{
+    color: #2000ff;
+}
+footer p span:hover{
+    color: #000;
+}
+section{
+    margin-top: 27px;
+}
+
+/* contact me */
+.row .con-first-div{
+    padding: 2rem;
+}
+.con-first-div{
+    background-color: #c8c6c6;
+}
+.con-first-div h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-style: inherit;
+    color: blue;
+    text-shadow: 1px 2px 2px #fff;
+}
+.con-first-div{
+    font-family: 'Poppins', sans-serif;
+}
+.con-first-div h1:first-child,.con-second-div h1:first-child{
+font-family: 'Poppins', sans-serif;
+font-size: 2rem;
+font-style: inherit;
+color: #000;
+text-shadow: 1px 2px 2px #fff;
+text-align: center;
+}
+.con-second-div{
+background-color: #b0b0b0;
+}
+.banner{
+    height: 277px;
+    background-color: #000;
+}
+.banner h1{
+text-align: center;
+padding-top: 95px;
+font-family: 'Poppins', sans-serif;
+font-style: inherit;
+color: white;
+text-shadow: 1px 2px 2px #3510e3;
+}
